@@ -1,0 +1,223 @@
+body{background-image: url(https://media.discordapp.net/attachments/777529022681710605/845590570822402048/iuyklfuyjviy.jpg);
+ font-family: "MS PGothic", "Meiryo", メイリオ, "Hiragino Kaku Gothic ProN", ヒラギノ角ゴ Pro W3, sans-serif;}
+div#header{background-image: url(https://i.pinimg.com/564x/4e/f5/4e/4ef54e54b7e8bedb12e1e76b4d685240.jpg)}
+div#hSub{ font-family: monospace; background-color: transparent !important;  text-align: center;}
+div.rightHead{background-color: #ffcce9}
+b{color: #000}
+h4{color: #947387}
+div.boxHead{background-color: #d9a5bb}
+.boxButton {color: #000; font-size: 0px;}
+#sMsg::after {content: "talk to owo"; font-size: 13px; color: #fff}
+#block::after {content: "block owo"; font-size: 13px; color: #fff}
+#report::after {content: "report owo"; font-size: 13px; color: #fff}
+#add::after {content: "be fwiends with owo"; font-size: 13px; color: #fff}
+
+#add {
+    background-repeat: no-repeat;
+    background: url(https://media.discordapp.net/attachments/777529022681710605/845680788724121610/da34beda651cf53cf4091da8bfbc213b_1.gif)no-repeat;
+}
+
+#block {
+    background-repeat: no-repeat;
+    background-image: url(https://media.discordapp.net/attachments/777529022681710605/845680788724121610/da34beda651cf53cf4091da8bfbc213b_1.gif);
+}
+
+#sMsg {
+    background-repeat: no-repeat;
+    background-image: url(https://media.discordapp.net/attachments/777529022681710605/845680788724121610/da34beda651cf53cf4091da8bfbc213b_1.gif);
+}
+
+#report {
+    background-repeat: no-repeat;
+    background-image: url(https://media.discordapp.net/attachments/777529022681710605/845680788724121610/da34beda651cf53cf4091da8bfbc213b_1.gif);}
+
+td.tableRight{background-image: url(https://i.pinimg.com/564x/4a/d2/2f/4ad22f41d704f8d6c0526db35a5cf908.jpg)}
+
+td.tableLeft{background: rgba(255, 204, 233, 0.5); text-align: center;}
+
+.player::before {
+    content: "";
+    display: block;
+    position: relative;
+    width: calc(40% -20px);
+    height: 170px;
+    max-width: 390px;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-image: url("https://i.pinimg.com/564x/2a/99/c0/2a99c07a1e526b0dc79bea64268b6895.jpg");}
+
+div.player.box{ background-image: url(https://i.pinimg.com/564x/b6/74/16/b6741682c50a703965ed7006394a05e0.jpg)}
+
+.blurbs>.blogs>div:not(:first-child):before {
+content: "";
+display: block;
+width: 70px;
+height: 60px;
+background-image: url(https://i.pinimg.com/originals/9c/b1/59/9cb159ed669f59d43cf2abc56c33f6a4.gif);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+text-align: center;
+}
+
+#commentInput {
+    background: url(https://i.pinimg.com/564x/43/12/8b/43128b04406c8d001d207881a9a88061.jpg);
+    width: calc( 99% - 6px );
+    margin: 0;
+    margin-top: 10px;
+    height: 100px;
+    border: 3px solid black;
+    text-color: #ff0059}
+
+div.box.blog{background-image: url(https://i.pinimg.com/564x/c5/d6/13/c5d6136a7ca9f2115a03d16c85a9488a.jpg)}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/smilies/smi-2/smi166.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+span.fwiendCount{color: #ffffff}
+
+.topRight {
+float: left;
+width: calc( 60% - 30px );
+padding: 5px;
+height: 700px;
+border: 3px double white;
+border-radius: 19px;
+background-color: rgba(255, 219, 239, 0.5);
+text-shadow: 2px 2px 5px white;
+overflow: scroll;
+}
+
+
+
+
+
+
+.topLeft {
+float: right;
+width: calc( 30% - 5px );
+padding: 20px;
+text-shadow: 2px 2px 5px white;
+background-color: rgba(255, 219, 239, 0.5);
+padding-bottom: 0px;
+border: 3px double white;
+border-radius: 11px;
+height: 700px;
+}
+
+/* unvisited link */
+a:link {
+  color: #ffb5dc;
+}
+
+/* visited link */
+a:visited {
+  color: #b6b9fc;
+}
+
+.avatar {
+    content: "";
+    width: 200px;
+    margin-right: 20px;
+    cursor: zoom-in;
+    border: solid #ffffff00 1px;
+    border-radius: 100px;
+    image-orientation: from-image;
+height: 200px
+}
+
+.fwiendFace img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ffd6f7;
+    border-radius: 1000px
+}
+
+.url {
+   background: url(https://i.pinimg.com/originals/2f/c1/b8/2fc1b8f82e14172e3bcae39ca8c8ab33.gif) no-repeat;
+   position: fixed;
+   right: 0;
+   bottom: 0px;
+   color: #ffffff00;
+   background-size: 100% 100%;
+   height: 220px;
+   width: 200px;
+   border: none;
+   box-shadow: none;
+   z-index: 1000;
+   font-size: 0px;
+   opacity: 1;
+}
+
+
+@keyframes float {
+0% { transform: translate(0, 0px); }
+50% { transform: translate(0, 8px); }
+100% { transform: translate(0, -0px); }
+}
+
+div{
+animation-name: float;
+animation-duration: 4.5s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+.topLeft{
+animation-name: float;
+animation-duration: 4.5s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+div#online {
+content: url(https://media.tenor.com/images/e201f39e67bec6139d6394d7c3925dd3/tenor.gif);
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+}
+
+/* KEYFRAMES */
+
+@keyframes floating { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 20px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
+
+@-webkit-keyframes reveal { from { opacity:0; } to { opacity:1; }  }
+   @-moz-keyframes reveal { from { opacity:0; } to { opacity:1; }  }
+     @-o-keyframes reveal { from { opacity:0; } to { opacity:1; }  }
+        @keyframes reveal { from { opacity:0; } to { opacity:1; }  }
+body {
+    -webkit-animation: 1s linear forwards reveal;
+     -moz-animation: 1s linear forwards reveal;
+       -o-animation: 1s linear forwards reveal;
+          animation: 4s linear forwards reveal;
+}
+
+
+.blurbs>.blogs>div:not(:first-child):before {
+content: "";
+display: block;
+width: 70px;
+height: 60px;
+background-image: url(https://i.pinimg.com/originals/9c/b1/59/9cb159ed669f59d43cf2abc56c33f6a4.gif);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+text-align: center;
+}
+
+.topRight > .blurbs.box > .blogs > div > b {
+font-size: 0px !Important;
+text-align: center; }
+
+
+#country {
+     font-size:0;
+}
+
+#country::after {
+   content: "Kurtis town";
+   font-size:15px;}
+
